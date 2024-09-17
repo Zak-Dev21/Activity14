@@ -10,11 +10,11 @@ int main()
     int secret_num = rand();
     int users_num;
 
-    cout << "Try to guess the secret number! Enter any number you have in mind: " << endl;
-    cin >> users_num;
+    
 
-    while (users_num == secret_num)
-        cout << "You guessed the correct number!";
+    while (users_num != secret_num)
+        cout << "Try to guess the secret number! Enter any number you have in mind: " << endl;
+        cin >> users_num;
 
     cout << "You did not guess the secret number!";
 
