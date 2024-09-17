@@ -4,6 +4,7 @@ using namespace std;
 
 int main()
 {
+    // setting random secret number to value from 1 to 10
     long ElapsedSeconds = time(0);
 
     srand(ElapsedSeconds);
@@ -11,7 +12,7 @@ int main()
     int maxValue = 10;
 
     int secret_num = (rand() % (maxValue - minValue + 1)) + minValue;
-    int users_num = -1;
+    int users_num = -1; // initializing a variable for users number in order to use it as input
 
     cout << "Try to guess the secret number from 1 to 10." << endl;
 
