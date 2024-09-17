@@ -13,15 +13,15 @@ int main()
     int secret_num = (rand() % (maxValue - minValue + 1)) + minValue;
     int users_num = -1;
 
-    cout << "Try to guess the secret number from 0 to 10." << endl;
+    cout << "Try to guess the secret number from 1 to 10." << endl;
 
     
 
     while (users_num != secret_num) {
-        cout << "Try to guess the secret number! Enter any number you have in mind: " << endl;
+        cout << "Enter any number you have in mind: " << endl;
         cin >> users_num;
     }
-    cout << "You did not guess the secret number!";
+    cout << "Congrats you guessed the correct number!";
 
 }
 
