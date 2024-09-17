@@ -7,8 +7,13 @@ int main()
     long ElapsedSeconds = time(0);
 
     srand(ElapsedSeconds);
-    int secret_num = rand();
-    int users_num;
+    int minValue = 1;
+    int maxValue = 10;
+
+    int secret_num = (rand() % (maxValue - minValue + 1)) + minValue;
+    int users_num = -1;
+
+    cout << "Try to guess the secret number from 0 to 10." << endl;
 
     
 
