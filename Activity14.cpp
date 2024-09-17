@@ -22,7 +22,7 @@ int main()
         cout << "Enter any number you have in mind: " << endl;
         cin >> users_num;
     }
-    cout << "Congrats you guessed the correct number!";
+    cout << "Congrats you guessed the correct number!"; //display this message when number is correct and goes out of while loop.
 
 }
 
