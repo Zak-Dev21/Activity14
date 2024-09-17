@@ -17,7 +17,7 @@ int main()
     cout << "Try to guess the secret number from 1 to 10." << endl;
 
     
-
+    //the following loops around while user enters wrong number
     while (users_num != secret_num) {
         cout << "Enter any number you have in mind: " << endl;
         cin >> users_num;
